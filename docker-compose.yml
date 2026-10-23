@@ -1,0 +1,118 @@
+version: "3.9"
+
+# ─────────────────────────────────────────────
+# Shared network
+# ─────────────────────────────────────────────
+networks:
+  app_network:
+    driver: bridge
+
+# ─────────────────────────────────────────────
+# Shared volumes
+# ─────────────────────────────────────────────
+volumes:
+  mysql_data:
+  elmapi_storage:
+  elmapi_uploads:
+
+# ─────────────────────────────────────────────
+# Services
+# ─────────────────────────────────────────────
+services:
+
+  # ── MySQL ───────────────────────────────────
+  mysql:
+    image: mysql:8.0
+    container_name: nszbd_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: elmapicms
+      MYSQL_USER: elmapi
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - app_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── ElmapiCMS (Laravel + PHP-FPM) ──────────
+  elmapi:
+    build:
+      context: ./elmapicms
+      dockerfile: Dockerfile
+    container_name: nszbd_elmapi
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      APP_ENV: production
+      APP_DEBUG: "false"
+      APP_URL: https://admin.nszbd.uz
+      APP_KEY: ${ELMAPI_APP_KEY}
+      DB_CONNECTION: mysql
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_DATABASE: elmapicms
+      DB_USERNAME: elmapi
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+      SESSION_DRIVER: database
+      CACHE_STORE: database
+      QUEUE_CONNECTION: database
+      FILESYSTEM_DISK: local
+    volumes:
+      - elmapi_storage:/var/www/html/storage
+      - elmapi_uploads:/var/www/html/public/uploads
+    networks:
+      - app_network
+    healthcheck:
+      test: ["CMD-SHELL", "php artisan --version || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ── Next.js Frontend ────────────────────────
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: https://nszbd.uz
+    container_name: nszbd_frontend
+    restart: unless-stopped
+    depends_on:
+      - elmapi
+    environment:
+      NODE_ENV: production
+      ELMAPI_BASE_URL: https://admin.nszbd.uz/api
+      ELMAPI_PROJECT_ID: ${ELMAPI_PROJECT_ID}
+      ELMAPI_API_KEY: ${ELMAPI_API_KEY}
+      NEXT_PUBLIC_SITE_URL: https://nszbd.uz
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID}
+      AUTH_SECRET: ${AUTH_SECRET}
+    networks:
+      - app_network
+
+  # ── Nginx reverse proxy ──────────────────────
+  nginx:
+    image: nginx:alpine
+    container_name: nszbd_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - frontend
+      - elmapi
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - elmapi_uploads:/var/www/uploads:ro
+    networks:
+      - app_network

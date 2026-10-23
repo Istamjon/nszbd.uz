@@ -1,0 +1,20 @@
+# ─────────────────────────────────────────
+# Project root .gitignore
+# ─────────────────────────────────────────
+
+# Production secrets — NEVER commit
+.env
+.env.production
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Scratch / temp
+scratch/

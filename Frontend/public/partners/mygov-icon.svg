@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="mygovGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="23" fill="url(#mygovGrad)"/>
+  <!-- Stylized bird/wings/checkmark -->
+  <path d="M12 25 Q20 13 28 21 Q32 16 37 19 Q29 35 12 25 Z" fill="#FFFFFF"/>
+  <circle cx="31" cy="17" r="2.5" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,367 @@
+{
+  "topbar": {
+    "phone": "+998 79 223-28-77",
+    "address": "Navoiy City, A. Temur Street, 4",
+    "email": "ksznavoiy@umail.uz",
+    "workingHours": "Mon - Fri: 09:00 - 18:00"
+  },
+  "nav": {
+    "home": "Home",
+    "aboutDropdown": "About Directorate",
+    "about": "About Organization",
+    "management": "Leadership",
+    "tasks": "Tasks & Functions",
+    "structure": "Organizational Structure",
+    "documents": "Legal Documents",
+    "zones": "Industrial Zones",
+    "projects": "Projects",
+    "news": "News",
+    "contact": "Contact",
+    "applyBtn": "Submit Application"
+  },
+  "districts": {
+    "karmana": "Karmana District",
+    "konimex": "Konimex District",
+    "qiziltepa": "Qiziltepa District",
+    "navbahor": "Navbahor District",
+    "nurota": "Nurota District",
+    "tomdi": "Tomdi District",
+    "uchquduq": "Uchquduq District",
+    "xatirchi": "Xatirchi District",
+    "navoiy": "Navoiy City",
+    "zarafshon": "Zarafshan City",
+    "gozgon": "Gozgon City"
+  },
+  "home": {
+    "title": "Navoiy SIZ Directorate",
+    "intro": "Official portal of the Directorate for Industrial Zones of Navoiy Region",
+    "latestNotes": "Recent notices",
+    "viewAll": "View all"
+  },
+  "hero": {
+    "title": "Directorate for Management of Industrial Zones of Navoiy Region",
+    "subtitle": "State authority for managing 28 industrial zones, ready-made infrastructure, and end-to-end investor support.",
+    "exploreZones": "Explore Zones",
+    "submitApplication": "Submit Application",
+    "guarantee": "Legal Guarantee",
+    "transparency": "Transparency via E-Auction",
+    "zonesCountBadge": "28 industrial zones"
+  },
+  "kpi": {
+    "zonesCount": "Industrial Zones",
+    "zonesUnit": "zones",
+    "totalArea": "Total Land Area",
+    "totalAreaUnit": "ha",
+    "enterprises": "Active Enterprises",
+    "enterprisesUnit": "units",
+    "jobs": "Jobs Created",
+    "jobsUnit": "positions"
+  },
+  "zones": {
+    "title": "Production Zones",
+    "subtitle": "Available manufacturing premises and ready infrastructure across regional districts and cities",
+    "details": "Detailed Information",
+    "totalArea": "Total Area",
+    "freeArea": "Vacant Area",
+    "enterprises": "Enterprises",
+    "jobs": "Jobs Created",
+    "filterAll": "All Regions",
+    "viewAll": "View All Zones",
+    "defaultRegion": "Navoi Region",
+    "defaultZoneType": "Small Industrial Zone"
+  },
+  "aboutSection": {
+    "title": "Industrial Growth & Investment Assurance",
+    "description": "The Directorate oversees 28 industrial zones across Navoiy Region, ensuring transparent land allocation and full engineering utility connectivity.",
+    "more": "Learn More",
+    "points": [
+      "Legal assurance under Cabinet of Ministers Resolution No. 134",
+      "Long-term favorable leasing of industrial land and facilities",
+      "Guaranteed connection to power, gas, water, and road networks",
+      "Fair and open allocation via the E-Auksion platform"
+    ],
+    "badgeTitle": "28 Industrial Zones",
+    "badgeSub": "Hub of Production & Investment"
+  },
+  "news": {
+    "title": "Official News",
+    "subtitle": "Directorate updates, new plant commissioning, and key developments across industrial zones",
+    "readMore": "Read More",
+    "viewAll": "All News",
+    "published": "Published"
+  },
+  "applyModal": {
+    "title": "Submit Project Application",
+    "subtitle": "Submit your inquiry to launch manufacturing operations in an industrial zone. We will respond promptly.",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "message": "Project Proposal Details",
+    "send": "Submit Application",
+    "sending": "Sending...",
+    "success": "Your application has been received successfully! Our specialists will contact you shortly.",
+    "close": "Close",
+    "errorMessage": "An error occurred",
+    "sendError": "Error submitting application",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "emailPlaceholder": "info@kompaniya.uz",
+    "msgPlaceholder": "Describe your application or proposal..."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Submit inquiries regarding investment proposals, land allocation, and strategic partnerships",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "message": "Message Content",
+    "send": "Send Message",
+    "infoTitle": "Contact Information",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "workingHoursVal": "Monday – Friday, 09:00 to 18:00",
+    "lunch": "Lunch: 13:00 - 14:00",
+    "reception": "Reception Hours: Monday – Friday, 09:00 to 18:00",
+    "receptionDays": "Reception Days",
+    "receptionDaysVal": "Monday – Friday: 09:00 – 18:00",
+    "phoneLabel": "Phone Number",
+    "emailLabel": "Email Address",
+    "namePlaceholder": "John Doe",
+    "msgPlaceholder": "Project proposal or inquiry details...",
+    "errorMessage": "An error occurred",
+    "sendError": "Error sending message"
+  },
+  "footer": {
+    "description": "State institution managing industrial zones in Navoiy Region, driving capital investments, and empowering manufacturers.",
+    "quickLinks": "Quick Links",
+    "portals": "State Portals",
+    "contactUs": "Contact",
+    "copyright": "© 2026 Directorate for Industrial Zones of Navoiy Region. All rights reserved.",
+    "developer": "Website developer:",
+    "stateOrg": "State Institution",
+    "hokimiyatUnder": "Under the Hokimiyat of Navoiy Region",
+    "workingHoursVal": "Monday – Friday: 09:00 – 18:00",
+    "presidentSite": "President Official Website",
+    "govPortal": "Government Portal",
+    "eAuction": "E-Auksion Platform",
+    "lexUz": "Legal Database (Lex.uz)",
+    "myGov": "Single Interactive Portal"
+  },
+  "aboutPage": {
+    "title": "About the Directorate",
+    "subtitle": "Efficient industrial zone governance, commissioning new facilities, and comprehensive investor support in Navoiy Region.",
+    "lead": "The Directorate is a state institution established under the Navoiy Region Hokimiyat for prompt operational governance of industrial zones and full assistance to enterprises.",
+    "lawNotice": "Our operations are conducted in accordance with the 'Regulation on Small Industrial Zones' approved by the Cabinet of Ministers Resolution No. 134 dated March 9, 2020, as well as the charter approved by the Hokimiyat.",
+    "zoneDef": "A small industrial zone is a designated territory with clearly defined boundaries and utility infrastructure intended for manufacturing operations. Such zones are established on the basis of inactive industrial premises and non-agricultural vacant land plots.",
+    "leaseRole": "The Directorate acts as the lessor of production premises and land plots within the zone territory and serves as the primary contractor for master plans.",
+    "goalsTitle": "Core Goals and Priorities",
+    "goal1Title": "Land Allocation",
+    "goal1Desc": "Transparent and open assignment of industrial land plots to entrepreneurs through electronic online auctions.",
+    "goal2Title": "Investor Facilitation",
+    "goal2Desc": "End-to-end practical support for project initiators from design to full commercial operations.",
+    "goal3Title": "Infrastructure Provision",
+    "goal3Desc": "Providing industrial zones with uninterrupted electricity, gas, water, sewage, and high-quality access roads.",
+    "activityDirectionsTitle": "Key Activity Directions",
+    "goals": [
+      "Establishing manufacturing aligned with designated sectoral specialization",
+      "Creating new permanent employment opportunities for the local workforce",
+      "Attracting direct investments and advanced manufacturing technologies",
+      "Launching export-oriented and import-substituting production capacities",
+      "Reintegrating vacant plots and unused facilities into the economic cycle"
+    ],
+    "tasks": [
+      "Formulating investment projects and engaging potential industrial partners",
+      "Comprehensive organizational and administrative management of industrial zones",
+      "Executing project implementation agreements and long-term lease contracts",
+      "Allocating approved projects and maintaining the unified participant register",
+      "Systematic monitoring of the fulfillment of investor commitments",
+      "Practical facilitation of engineering utility and grid connections",
+      "Prompt resolution of production, legal, and operational matters"
+    ]
+  },
+  "managementPage": {
+    "title": "Directorate Leadership",
+    "subtitle": "Responsible executives of the Directorate for Industrial Zones of Navoiy Region and reception hours.",
+    "phoneLabel": "Phone:",
+    "emailLabel": "Email:",
+    "receptionLabel": "Reception Hours:",
+    "receptionValue": "Monday – Friday: 09:00 – 18:00"
+  },
+  "tasksPage": {
+    "title": "Tasks & Functions",
+    "subtitle": "Core priorities and mandate assigned to the Directorate under government regulations.",
+    "tasksTitle": "1. Strategic Priority Tasks",
+    "functionsTitle": "2. Operational Management Functions",
+    "task1": "Organizing master plan development for industrial zones and submitting them for approval;",
+    "task2": "Coordinating engineering utilities and access road infrastructure maintenance;",
+    "task3": "Managing the leasing of land plots through transparent electronic online auctions;",
+    "task4": "Continuous monitoring and hands-on facilitation in investment project execution;",
+    "task5": "Promoting modern, energy-efficient, and export-oriented manufacturing;",
+    "task6": "Creating permanent employment opportunities and boosting the region's industrial output.",
+    "funcGroup1Title": "1. Territory Management & Planning",
+    "funcGroup1Items": [
+      "Drawing up land layout plans in accordance with the zone master plan;",
+      "Supervising utility grid installations and facility construction standards;",
+      "Area landscaping, waste management, and common property maintenance."
+    ],
+    "funcGroup2Title": "2. Investor Relations & Leasing",
+    "funcGroup2Items": [
+      "Executing long-term lease agreements with electronic auction winners;",
+      "Systematic assessment of the fulfillment of contractual investment obligations;",
+      "Collaborating with government agencies to rapidly address operational challenges."
+    ],
+    "funcGroup3Title": "3. Infrastructure Development",
+    "funcGroup3Items": [
+      "Identifying utility and infrastructure requirements for industrial zones;",
+      "Coordinating infrastructure works with specialized utility service providers;",
+      "Ensuring network safety, reliability, and uninterrupted operation."
+    ],
+    "funcGroup4Title": "4. Monitoring & Analytics",
+    "funcGroup4Items": [
+      "Submitting periodic performance and capital investment reports to the regional Hokimiyat;",
+      "Maintaining statistics on newly created jobs and production volumes;",
+      "Publishing updates through public media channels to maintain administrative transparency."
+    ]
+  },
+  "structurePage": {
+    "title": "Organizational Structure of the Directorate",
+    "subtitle": "Management apparatus chart of the Directorate for Management of Industrial Zones under the Khokimiyat of Navoiy Region.",
+    "chartTitle": "Management Chart",
+    "chartSubtitle": "Directorate management apparatus and staff allocation",
+    "interactiveView": "Interactive Chart",
+    "documentView": "Official Document",
+    "zoomImage": "Zoom In",
+    "closeModal": "Close",
+    "officialDocTitle": "Officially Approved Structure Chart",
+    "officialDocDesc": "Organizational structure document approved by the decision of the Governor of Navoi Region",
+    "nodes": {
+      "director": "Director",
+      "directorRole": "Governing Body",
+      "monitoring": "Organizational matters, monitoring and analysis sector",
+      "investors": "Chief specialist for relations with investors",
+      "infraSpecialist": "Lead infrastructure specialist",
+      "accountant": "Chief Accountant",
+      "contractsLegal": "Contract registration sector (legal counsel)",
+      "zoneOfficers": "Responsible officers assigned to each small industrial zone (as needed)"
+    }
+  },
+  "documentsPage": {
+    "title": "Regulatory Legal Documents",
+    "subtitle": "Laws of the Republic of Uzbekistan, Presidential decrees, and Government resolutions governing industrial zones.",
+    "viewDoc": "Download Document",
+    "downloadDoc": "Download PDF"
+  },
+  "zonesPage": {
+    "title": "Regional Industrial Zones",
+    "subtitle": "Available manufacturing areas, vacant plots, and utility infrastructure across all districts and cities.",
+    "selectRegion": "Select district",
+    "allRegions": "All districts",
+    "filterRegion": "Region",
+    "filterType": "Zone type",
+    "selectType": "Select zone type",
+    "allTypes": "All types",
+    "types": {
+      "youth": "Youth industrial",
+      "business": "Business zone"
+    },
+    "noZonesFound": "No industrial zones found matching the selected filters.",
+    "resetFilters": "Reset filters",
+    "activeFilters": "Active filters",
+    "backToList": "Back to all zones",
+    "keyIndicators": "Key Indicators",
+    "totalArea": "Total Land Area",
+    "freeArea": "Vacant Land Area",
+    "enterprises": "Active Enterprises",
+    "jobs": "Jobs Created",
+    "infrastructure": "Utility & Road Infrastructure",
+    "description": "Zone Description and Infrastructure",
+    "ctaTitle": "Want to launch a project in this zone?",
+    "ctaDesc": "The Directorate provides investors with comprehensive support in land allocation and utility connections.",
+    "ctaApply": "Submit Application",
+    "ctaContact": "Contact Department",
+    "details": "Detailed Information",
+    "viewLotAuction": "View lot on auction",
+    "areaUnit": "ha",
+    "prev": "Previous zone",
+    "next": "Next zone"
+  },
+  "projectsPage": {
+    "title": "Investment Projects",
+    "subtitle": "Manufacturing investment projects commissioned and operating across industrial zones of Navoiy Region.",
+    "backToList": "Back to all projects",
+    "investment": "Investment Volume",
+    "jobs": "Jobs Created",
+    "area": "Land Area",
+    "region": "Region",
+    "status": "Status",
+    "stir": "Tax ID (STIR)",
+    "address": "Address",
+    "details": "Detailed Information",
+    "projectDetails": "Detailed Project Information",
+    "companyInfo": "Project Initiator Information",
+    "inProgressTitle": "Project in Progress",
+    "completedTitle": "Commissioned Project",
+    "zoneLabel": "Industrial Zone",
+    "auctionLots": "E-Auksion Lots",
+    "viewLotAuction": "View lot on auction",
+    "lotPrefix": "Lot #",
+    "establishedYear": "Established Year",
+    "workersUnit": "people",
+    "areaUnit": "ha"
+  },
+  "newsPage": {
+    "title": "Directorate News",
+    "subtitle": "Industrial zone updates, newly commissioned manufacturing plants, and official notices.",
+    "backToList": "Back to all news",
+    "readMore": "Read More",
+    "categoryDefault": "Industrial Zones",
+    "readingTime": "3 min read",
+    "pressService": "Directorate Press Service",
+    "latestNews": "Latest News",
+    "allNewsBtn": "All News",
+    "contactTitle": "Have questions?",
+    "contactSubtitle": "Get advice on starting operations or acquiring land in industrial zones.",
+    "contactBtn": "Contact Us",
+    "ctaBadge": "Opportunity",
+    "ctaTitle": "Start manufacturing in industrial zones",
+    "ctaDesc": "Acquire land plots and facilities transparently through E-Auksion tenders.",
+    "ctaBtn": "Explore Zones",
+    "prev": "Previous news",
+    "next": "Next news"
+  },
+  "errors": {
+    "loadFailed": "An error occurred while loading content.",
+    "notFound": "Page not found."
+  },
+  "locale": {
+    "switcher": "Select Language"
+  },
+  "common": {
+    "back": "Back",
+    "loading": "Loading...",
+    "noData": "No data found",
+    "themeToggle": "Toggle theme",
+    "backToTop": "Back to top",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "showing": "Showing",
+    "of": "of",
+    "total": "total"
+  },
+  "share": {
+    "title": "Share:",
+    "copy": "Copy link",
+    "copied": "Copied!",
+    "telegram": "Telegram",
+    "facebook": "Facebook"
+  },
+  "maps": {
+    "buildingTitle": "Directorate Building",
+    "coordinates": "Coordinates",
+    "title": "NSZBD Google Maps Location"
+  }
+}

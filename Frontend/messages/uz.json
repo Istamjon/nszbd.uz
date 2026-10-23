@@ -1,0 +1,367 @@
+{
+  "topbar": {
+    "phone": "+998 79 223-28-77",
+    "address": "Navoiy shahri, A.Temur ko'chasi, 4-uy",
+    "email": "ksznavoiy@umail.uz",
+    "workingHours": "Dush - Juma: 09:00 - 18:00"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "aboutDropdown": "Direksiya haqida",
+    "about": "Tashkilot haqida",
+    "management": "Rahbariyat",
+    "tasks": "Vazifalar va funksiyalar",
+    "structure": "Tashkiliy tuzilma",
+    "documents": "Huquqiy hujjatlar",
+    "zones": "Sanoat zonalari",
+    "projects": "Loyihalar",
+    "news": "Yangiliklar",
+    "contact": "Aloqa",
+    "applyBtn": "Ariza topshirish"
+  },
+  "districts": {
+    "karmana": "Karmana tumani",
+    "konimex": "Konimex tumani",
+    "qiziltepa": "Qiziltepa tumani",
+    "navbahor": "Navbahor tumani",
+    "nurota": "Nurota tumani",
+    "tomdi": "Tomdi tumani",
+    "uchquduq": "Uchquduq tumani",
+    "xatirchi": "Xatirchi tumani",
+    "navoiy": "Navoiy shahri",
+    "zarafshon": "Zarafshon shahri",
+    "gozgon": "G'ozg'on shahri"
+  },
+  "home": {
+    "title": "Navoiy KSZ Direksiyasi",
+    "intro": "Navoiy viloyati sanoat zonalarini boshqarish direksiyasi rasmiy portali",
+    "latestNotes": "So'nggi eslatmalar",
+    "viewAll": "Barchasini ko'rish"
+  },
+  "hero": {
+    "title": "Navoiy viloyati sanoat zonalarini boshqarish direksiyasi",
+    "subtitle": "Viloyatdagi 28 ta sanoat zonasida ishlab chiqarish maydonlari, infratuzilma ta'minoti va investitsiyalarni to'liq qo'llab-quvvatlash davlat tizimi.",
+    "exploreZones": "Sanoat zonalarini ko'rish",
+    "submitApplication": "Ariza topshirish",
+    "guarantee": "Qonuniy kafolat",
+    "transparency": "E-Auksion orqali shaffoflik",
+    "zonesCountBadge": "28 ta sanoat zonasi"
+  },
+  "kpi": {
+    "zonesCount": "Sanoat zonalari",
+    "zonesUnit": "ta",
+    "totalArea": "Umumiy yer maydoni",
+    "totalAreaUnit": "ga",
+    "enterprises": "Faol korxonalar",
+    "enterprisesUnit": "ta",
+    "jobs": "Yaratilgan ish o'rinlari",
+    "jobsUnit": "ta"
+  },
+  "zones": {
+    "title": "Ishlab chiqarish zonalari",
+    "subtitle": "Viloyat tuman va shaharlaridagi mavjud ishlab chiqarish maydonlari va tayyor infratuzilma",
+    "details": "Batafsil ma'lumot",
+    "totalArea": "Umumiy maydon",
+    "freeArea": "Bo'sh maydon",
+    "enterprises": "Korxonalar",
+    "jobs": "Ish o'rinlari",
+    "filterAll": "Barcha hududlar",
+    "viewAll": "Barcha zonalarni ko'rish",
+    "defaultRegion": "Navoiy viloyati",
+    "defaultZoneType": "Kichik sanoat zonasi"
+  },
+  "aboutSection": {
+    "title": "Sanoat taraqqiyoti va investitsiyalar kafolati",
+    "description": "Direksiya Navoiy viloyatidagi 28 ta sanoat zonasida yer ajratish, muhandislik tarmoqlariga ulash hamda investitsiya loyihalarini to'liq qo'llab-quvvatlashni ta'minlaydi.",
+    "more": "Batafsil tanishish",
+    "points": [
+      "Vazirlar Mahkamasining 134-son qarori asosida qonuniy kafolat",
+      "Ishlab chiqarish maydonlarini uzoq muddatli qulay ijaraga berish",
+      "Elektr, gaz, suv va yo'l infratuzilmasiga kafolatlangan ulanish",
+      "E-Auksion orqali ochiq, adolatli va shaffof taqsimot"
+    ],
+    "badgeTitle": "28 ta sanoat zonasi",
+    "badgeSub": "Ishlab chiqarish va investitsiya markazi"
+  },
+  "news": {
+    "title": "Rasmiy yangiliklar",
+    "subtitle": "Direksiya faoliyati, yangi quvvatlar va sanoat zonalaridagi muhim voqealar",
+    "readMore": "Batafsil o'qish",
+    "viewAll": "Barcha yangiliklar",
+    "published": "E'lon qilindi"
+  },
+  "applyModal": {
+    "title": "Loyiha bo'yicha ariza topshirish",
+    "subtitle": "Sanoat zonasida faoliyat boshlash yoki yer ajratish bo'yicha ma'lumotlaringizni qoldiring",
+    "fullName": "Ism va familiyangiz",
+    "phone": "Telefon raqamingiz",
+    "email": "Elektron pochta",
+    "message": "Loyiha taklifi yoki xabar mazmuni",
+    "send": "Arizani yuborish",
+    "sending": "Yuborilmoqda...",
+    "success": "Arizangiz muvaffaqiyatli qabul qilindi. Tez orada mas'ul mutaxassislarimiz siz bilan bog'lanishadi.",
+    "close": "Yopish",
+    "errorMessage": "Xatolik yuz berdi",
+    "sendError": "Arizani yuborishda xatolik yuz berdi",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "emailPlaceholder": "info@kompaniya.uz",
+    "msgPlaceholder": "Murojaat matni yoki loyiha taklifi..."
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "subtitle": "Loyiha takliflari, yer ajratish va hamkorlik masalalari bo'yicha murojaat yo'llang",
+    "fullName": "F.I.Sh.",
+    "phone": "Telefon raqami",
+    "email": "Elektron pochta",
+    "message": "Xabar matni",
+    "send": "Xabarni yuborish",
+    "infoTitle": "Bog'lanish ma'lumotlari",
+    "address": "Manzil",
+    "workingHours": "Ish vaqti",
+    "workingHoursVal": "Dushanba – Juma, 09:00 dan 18:00 gacha",
+    "lunch": "Tushlik: 13:00 - 14:00",
+    "reception": "Qabul kunlari: Dushanba – Juma, 09:00 dan 18:00 gacha",
+    "receptionDays": "Qabul kunlari",
+    "receptionDaysVal": "Dushanba – Juma: 09:00 – 18:00",
+    "phoneLabel": "Telefon raqam",
+    "emailLabel": "Elektron pochta",
+    "namePlaceholder": "Jasur Aliyev",
+    "msgPlaceholder": "Loyiha taklifi yoki savolingizni yozing...",
+    "errorMessage": "Xatolik yuz berdi",
+    "sendError": "Xabarni yuborishda xatolik yuz berdi"
+  },
+  "footer": {
+    "description": "Navoiy viloyati sanoat zonalarini boshqarish, investorlarga qulay shart-sharoit yaratish va yangi ishlab chiqarish quvvatlarini qo'llab-quvvatlash davlat muassasasi.",
+    "quickLinks": "Tezkor havolalar",
+    "portals": "Davlat portallari",
+    "contactUs": "Aloqa",
+    "copyright": "© 2026 Navoiy viloyati sanoat zonalarini boshqarish direksiyasi. Barcha huquqlar himoyalangan.",
+    "developer": "Sayt ishlab chiquvchi:",
+    "stateOrg": "Davlat muassasasi",
+    "hokimiyatUnder": "Navoiy viloyati hokimligi huzurida",
+    "workingHoursVal": "Dushanba – Juma: 09:00 – 18:00",
+    "presidentSite": "Prezident rasmiy sayti",
+    "govPortal": "Hukumat portali",
+    "eAuction": "E-Auksion platformasi",
+    "lexUz": "Qonunchilik bazasi (Lex.uz)",
+    "myGov": "Yagona interaktiv portal"
+  },
+  "aboutPage": {
+    "title": "Direksiya faoliyati haqida",
+    "subtitle": "Navoiy viloyatida sanoat zonalarini samarali boshqarish, yangi quvvatlarni ishga tushirish va investitsiyalarni qo'llab-quvvatlash.",
+    "lead": "Direksiya — viloyat hokimligi huzurida sanoat zonalari faoliyatini tezkor boshqarish, muhandislik tarmoqlarini muvofiqlashtirish va tadbirkorlik subyektlariga to'liq amaliy ko'maklashish uchun tashkil etilgan davlat muassasasidir.",
+    "lawNotice": "Faoliyatimiz O‘zbekiston Respublikasi Vazirlar Mahkamasining 2020-yil 9-martdagi 134-son qarori bilan tasdiqlangan «Kichik sanoat zonalari to‘g‘risidagi nizom» hamda hokimlik tasdiqlagan ustav asosida yuritiladi.",
+    "zoneDef": "Kichik sanoat zonasi — ishlab chiqarish faoliyatini amalga oshirish uchun mo‘ljallangan, chegaralari aniq belgilangan va xizmat ko‘rsatuvchi infratuzilmaga ega hudud qismidir. Bunday zonalar faoliyat ko‘rsatmayotgan ishlab chiqarish maydonlari hamda qishloq xo‘jaligiga mo‘ljallanmagan bo‘sh yer uchastkalari negizida tashkil etiladi.",
+    "leaseRole": "Direksiya zona hududidagi ishlab chiqarish maydonlari va yer uchastkalari bo‘yicha ijaraga beruvchi hamda bosh rejalarni ishlab chiqishda buyurtmachi sifatida ish yuritadi.",
+    "goalsTitle": "Asosiy maqsad va yo'nalishlar",
+    "goal1Title": "Yer maydonlarini ajratish",
+    "goal1Desc": "Ishlab chiqarish uchun yer uchastkalarini e-auksion savdolari orqali shaffof va ochiq tarzda tadbirkorlarga biriktirish.",
+    "goal2Title": "Investorlarni qo'llab-quvvatlash",
+    "goal2Desc": "Loyihalarni loyihalashdan to to'liq quvvatda ishga tushirishgacha bo'lgan barcha bosqichlarda amaliy hamrohlik.",
+    "goal3Title": "Infratuzilma ta'minoti",
+    "goal3Desc": "Zonalarni elektr, gaz, suv, oqova tarmoqlari va sifatli yo'llar bilan uzluksiz ta'minlash.",
+    "activityDirectionsTitle": "Faoliyat yo'nalishlari",
+    "goals": [
+      "Tarmoq ixtisoslashuviga mos yuqori qo'shilgan qiymatli mahsulotlar ishlab chiqarish",
+      "Aholi bandligini ta'minlovchi yangi doimiy ish o'rinlarini yaratish",
+      "To'g'ridan-to'g'ri investitsiyalar va ilg'or texnologiyalarni jalb qilish",
+      "Eksportbop va import o'rnini bosuvchi energiya tejamkor ishlab chiqarish",
+      "Bo'sh yerlar va foydalanilmayotgan maydonlarni iqtisodiy aylanmaga kiritish"
+    ],
+    "tasks": [
+      "Investitsiya loyihalarini shakllantirish va tashabbuskor investorlarni jalb etish",
+      "Sanoat zonalarida tezkor tashkiliy-boshqaruv faoliyatini amalga oshirish",
+      "Investorlar bilan uzoq muddatli ijara shartnomalari va investitsiya bitimlarini tuzish",
+      "Ma'muriy kengash ma'qullagan loyihalarni joylashtirish va ishtirokchilar reyestrini yuritish",
+      "Investitsiya majburiyatlari bajarilishi yuzasidan tizimli monitoring olib borish",
+      "Muhandislik tarmoqlari va infratuzilmaga to'liq ulanishda amaliy yordam berish",
+      "Tadbirkorlarning ishlab chiqarish, huquqiy va infratuzilma masalalarini tezkor hal etish"
+    ]
+  },
+  "managementPage": {
+    "title": "Direksiya rahbariyati",
+    "subtitle": "Fuqarolar va tadbirkorlar uchun rasmiy qabul kunlari hamda to'g'ridan-to'g'ri aloqa vositalari.",
+    "phoneLabel": "Telefon:",
+    "emailLabel": "Email:",
+    "receptionLabel": "Qabul kunlari:",
+    "receptionValue": "Dushanba – Juma: 09:00 – 18:00"
+  },
+  "tasksPage": {
+    "title": "Vazifalar va funksiyalar",
+    "subtitle": "Kichik sanoat zonalari to‘g‘risidagi nizomga muvofiq direksiya faoliyatining ustuvor yo‘nalishlari.",
+    "tasksTitle": "1. Asosiy strategik vazifalar",
+    "functionsTitle": "2. Amaliy boshqaruv funksiyalari",
+    "task1": "Kichik sanoat zonalari bosh rejalarini ishlab chiqish va tasdiqlash uchun kiritish;",
+    "task2": "Muhandislik-kommunikatsiya va yo'l infratuzilmasini qurish hamda ta'mirlashni muvofiqlashtirish;",
+    "task3": "Yer uchastkalarini elektron onlayn-auksion orqali ijaraga berish jarayonini tashkillashtirish;",
+    "task4": "Investitsiya loyihalarining amalga oshirilishini doimiy monitoring qilish va amaliy ko'maklashish;",
+    "task5": "Energiya tejamkor, zamonaviy va eksportbop mahsulotlar ishlab chiqarishni rag'batlantirish;",
+    "task6": "Yangi doimiy ish o'rinlarini yaratish va hududning sanoat salohiyatini oshirish.",
+    "funcGroup1Title": "1. Hududni boshqarish va rejalashtirish",
+    "funcGroup1Items": [
+      "Bosh rejaga muvofiq yer uchastkalarini joylashtirish sxemalarini tuzish;",
+      "Muhandislik tarmoqlari va bino-inshootlar qurilishini me'yorlar asosida nazorat qilish;",
+      "Hududni obodonlashtirish, chiqindilarni chiqarish va umumiy obyektlarni saqlash."
+    ],
+    "funcGroup2Title": "2. Investorlar bilan ishlash va ijara",
+    "funcGroup2Items": [
+      "Elektron auksion g'oliblari bilan uzoq muddatli ijara shartnomalarini tuzish;",
+      "Investitsiya majburiyatlari bajarilishini shartnoma talablariga muvofiq tahlil qilish;",
+      "Muammoli masalalarni hal etish bo'yicha davlat idoralari bilan tezkor hamkorlik."
+    ],
+    "funcGroup3Title": "3. Infratuzilmani rivojlantirish",
+    "funcGroup3Items": [
+      "Sanoat zonalarining muhandislik-kommunikatsiya ehtiyojlarini aniqlash;",
+      "Tegishli tarmoq korxonalari bilan infratuzilma masalalarini muvofiqlashtirish;",
+      "Tarmoqlardan foydalanishda xavfsizlik va uzluksizlikni ta'minlash."
+    ],
+    "funcGroup4Title": "4. Monitoring va tahlil",
+    "funcGroup4Items": [
+      "Zonalar faoliyati va investitsiyalar o'zlashtirilishi to'g'risida hisobot berish;",
+      "Yaratilgan yangi ish o'rinlari va ishlab chiqarish hajmlarini hisobga olish;",
+      "Faoliyat ochiqligi va shaffofligini ommaviy axborot vositalarida yoritish."
+    ]
+  },
+  "structurePage": {
+    "title": "Direksiyaning tashkiliy tuzilmasi",
+    "subtitle": "Navoiy viloyati hokimligi huzuridagi sanoat zonalarini boshqarish direksiyasi boshqaruv apparati sxemasi.",
+    "chartTitle": "Boshqaruv sxemasi",
+    "chartSubtitle": "Direksiya boshqaruv apparati va mutaxassislar taqsimoti",
+    "interactiveView": "Interaktiv sxema",
+    "documentView": "Rasmiy hujjat",
+    "zoomImage": "Kattalashtirish",
+    "closeModal": "Yopish",
+    "officialDocTitle": "Rasmiy tasdiqlangan tuzilma sxemasi",
+    "officialDocDesc": "Navoiy viloyati hokimining tegishli qarori bilan tasdiqlangan tashkiliy tuzilma hujjati",
+    "nodes": {
+      "director": "Direktor",
+      "directorRole": "Boshqaruv organi",
+      "monitoring": "Tashkiliy masalalar, monitoring va tahlil sektori",
+      "investors": "Investorlar bilan ishlash bo'yicha bosh mutaxassis",
+      "infraSpecialist": "Infratuzilma bilan ishlash bo'yicha yetakchi mutaxassis",
+      "accountant": "Bosh buxgalter",
+      "contractsLegal": "Shartnomalarni ro'yxatga olish sektori (yuriskonsult)",
+      "zoneOfficers": "Har bir kichik sanoat zonasiga biriktirilgan bir nafardan mas'ul xodimlar (zaruratga ko'ra)"
+    }
+  },
+  "documentsPage": {
+    "title": "Me'yoriy-huquqiy hujjatlar",
+    "subtitle": "Sanoat zonalari faoliyatini tartibga soluvchi qonunlar, Prezident farmonlari va Hukumat qarorlari.",
+    "viewDoc": "Hujjatni yuklab olish",
+    "downloadDoc": "PDF yuklab olish"
+  },
+  "zonesPage": {
+    "title": "Viloyat sanoat zonalari",
+    "subtitle": "Barcha tuman va shaharlar kesimidagi ishlab chiqarish maydonlari, bo'sh yerlar va muhandislik ta'minoti.",
+    "selectRegion": "Hududni tanlang",
+    "allRegions": "Barcha hududlar",
+    "filterRegion": "Hudud",
+    "filterType": "Zona turi",
+    "selectType": "Zona turini tanlang",
+    "allTypes": "Barcha turlar",
+    "types": {
+      "youth": "Yoshlar sanoat",
+      "business": "Tadbirkorlik zonasi"
+    },
+    "noZonesFound": "Tanlangan filtrlar bo‘yicha sanoat zonalari topilmadi.",
+    "resetFilters": "Filtrlarni tozalash",
+    "activeFilters": "Faol filtrlar",
+    "backToList": "Barcha zonalarga qaytish",
+    "keyIndicators": "Asosiy ko'rsatkichlar",
+    "totalArea": "Umumiy yer maydoni",
+    "freeArea": "Bo'sh yer maydoni",
+    "enterprises": "Faoliyat yuritayotgan korxonalar",
+    "jobs": "Yaratilgan ish o'rinlari",
+    "infrastructure": "Muhandislik-kommunikatsiya infratuzilmasi",
+    "description": "Zona tavsifi va infratuzilmasi",
+    "ctaTitle": "Ishlab chiqarishni boshlamoqchimisiz?",
+    "ctaDesc": "Direksiya yer ajratish, loyihalashtirish va kommunikatsiyalarga ulanishda to'liq amaliy ko'mak beradi.",
+    "ctaApply": "Ariza topshirish",
+    "ctaContact": "Aloqa bo'limi",
+    "details": "Batafsil ma'lumot",
+    "viewLotAuction": "Auksionda lotni ko'rish",
+    "areaUnit": "ga",
+    "prev": "Oldingi zona",
+    "next": "Keyingi zona"
+  },
+  "projectsPage": {
+    "title": "Investitsiya loyihalari",
+    "subtitle": "Sanoat zonalarida amaliyotga joriy etilgan va muvaffaqiyatli ishga tushirilgan ishlab chiqarish quvvatlari.",
+    "backToList": "Barcha loyihalarga qaytish",
+    "investment": "Investitsiya hajmi",
+    "jobs": "Ish o'rinlari",
+    "area": "Yer maydoni",
+    "region": "Hudud",
+    "status": "Holati",
+    "stir": "STIR (INN)",
+    "address": "Manzil",
+    "details": "Batafsil ma'lumot",
+    "projectDetails": "Loyiha haqida batafsil ma'lumot",
+    "companyInfo": "Tashabbuskor kompaniya ma'lumotlari",
+    "inProgressTitle": "Amalga oshirilayotgan loyiha",
+    "completedTitle": "Ishga tushirilgan loyiha",
+    "zoneLabel": "Sanoat zonasi",
+    "auctionLots": "E-Auksion lotlari",
+    "viewLotAuction": "Auksionda lotni ko'rish",
+    "lotPrefix": "Lot #",
+    "establishedYear": "Tashkil etilgan yili",
+    "workersUnit": "ta",
+    "areaUnit": "ga"
+  },
+  "newsPage": {
+    "title": "Direksiya yangiliklari",
+    "subtitle": "Sanoat zonalari hayoti, yangi korxonalar ishga tushishi va rasmiy e'lonlar.",
+    "backToList": "Barcha yangiliklarga qaytish",
+    "readMore": "Batafsil o'qish",
+    "categoryDefault": "Sanoat zonalari",
+    "readingTime": "3 daqiqa o'qish",
+    "pressService": "Direksiya axborot xizmati",
+    "latestNews": "So'nggi yangiliklar",
+    "allNewsBtn": "Barcha yangiliklar",
+    "contactTitle": "Savollaringiz bormi?",
+    "contactSubtitle": "Sanoat zonasida faoliyat boshlash yoki yer maydoni olish bo'yicha maslahat oling.",
+    "contactBtn": "Bog'lanish",
+    "ctaBadge": "Imkoniyat",
+    "ctaTitle": "Sanoat zonasida ishlab chiqarish boshlang",
+    "ctaDesc": "E-Auksion savdolari orqali shaffof tartibda bo'sh yer uchastkalari va binolarga ega bo'ling.",
+    "ctaBtn": "Sanoat zonalarini ko'rish",
+    "prev": "Oldingi yangilik",
+    "next": "Keyingi yangilik"
+  },
+  "errors": {
+    "loadFailed": "Kontentni yuklashda xatolik yuz berdi.",
+    "notFound": "Sahifa topilmadi."
+  },
+  "locale": {
+    "switcher": "Tilni tanlash"
+  },
+  "common": {
+    "back": "Orqaga",
+    "loading": "Yuklanmoqda...",
+    "noData": "Ma'lumot topilmadi",
+    "themeToggle": "Mavzuni o'zgartirish",
+    "backToTop": "Yuqoriga qaytish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish"
+  },
+  "pagination": {
+    "prev": "Oldingi",
+    "next": "Keyingi",
+    "page": "Sahifa",
+    "showing": "Ko'rsatilmoqda",
+    "of": "dan",
+    "total": "jami"
+  },
+  "share": {
+    "title": "Ulashish:",
+    "copy": "Havolani nusxalash",
+    "copied": "Nusxalandi!",
+    "telegram": "Telegram",
+    "facebook": "Facebook"
+  },
+  "maps": {
+    "buildingTitle": "Direksiya binosi",
+    "coordinates": "Koordinatalar",
+    "title": "NSZBD Google xaritadagi joylashuvi"
+  }
+}

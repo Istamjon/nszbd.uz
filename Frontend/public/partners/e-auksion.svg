@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 56" width="250" height="56" fill="none">
+  <!-- E-Auksion Emblem Icon -->
+  <g transform="translate(4, 5)">
+    <circle cx="23" cy="23" r="23" fill="#005B9E"/>
+    <!-- Stylized Gavel & Star -->
+    <path d="M14 26 L23 17 L29 23 L20 32 Z" fill="#FFFFFF"/>
+    <path d="M22 16 L27 11 L32 16 L27 21 Z" fill="#E6850F"/>
+    <path d="M12 28 L17 23 L19 25 L14 30 Z" fill="#E2E8F0"/>
+    <rect x="10" y="32" width="16" height="3" rx="1.5" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="60" y="27" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="900" fill="#005B9E" letter-spacing="-0.5">E-AUKSION</text>
+  <text x="60" y="41" font-family="Inter, system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#E6850F" letter-spacing="0.5">ELEKTRON SAVDO PLATFORMASI</text>
+</svg>

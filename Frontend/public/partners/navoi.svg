@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 56" width="250" height="56" fill="none">
+  <!-- Gerb / Emblem -->
+  <image href="/gerb.svg" x="0" y="4" width="48" height="48" />
+  
+  <!-- Typography -->
+  <text x="56" y="24" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="800" fill="#010c22" letter-spacing="0.3">NAVOIY VILOYATI</text>
+  <text x="56" y="38" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#D19C30" letter-spacing="0.5">HOKIMLIGI</text>
+  <text x="56" y="49" font-family="Inter, system-ui, sans-serif" font-size="8.5" font-weight="500" fill="#64748B">Rasmiy axborot portali</text>
+</svg>

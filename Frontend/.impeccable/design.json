@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T19:36:05.200Z",
+  "title": "Design System: Navoiy KSZ Direksiyasi",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Industrial Gold",
+        "canonical": "#D19C30"
+      },
+      "navy-main": {
+        "role": "neutral",
+        "displayName": "Deep Corporate Navy",
+        "canonical": "#010c22"
+      },
+      "canvas-light": {
+        "role": "neutral",
+        "displayName": "Canvas Neutral",
+        "canonical": "#EEEEEE"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline text"
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles"
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Standard reading text"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default easing for interactive states"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action button with gold accent.",
+      "html": "<button class=\"ds-btn-primary\">ARIZA TOPSHIRISH</button>",
+      "css": ".ds-btn-primary { background: #D19C30; color: #ffffff; padding: 12px 28px; font-weight: 600; font-family: Inter, sans-serif; border: none; border-radius: 0; cursor: pointer; transition: background 0.2s ease, transform 0.2s ease; } .ds-btn-primary:hover { background: #b88523; transform: translateY(-1px); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Sovereign Industrial Gateway",
+    "overview": "The visual system embodies state authority, industrial precision, and welcoming investment clarity. Designed for institutional trust, it combines deep maritime navy surfaces with high-clarity canvas neutrals and warm, authoritative gold accents.",
+    "keyCharacteristics": [
+      "Restrained, purposeful application of primary gold accent.",
+      "High-contrast, WCAG AA compliant light and dark mode implementations.",
+      "Clean typography rhythm anchored strictly in the Inter font family.",
+      "Generous touch targets and subtle 200ms ease transitions."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Restraint Rule",
+        "body": "Industrial Gold (#D19C30) occupies less than 10% of any given viewport surface. Its power is concentrated in calls to action and milestone figures.",
+        "section": "colors"
+      },
+      {
+        "name": "The Border-First Elevation Rule",
+        "body": "Elevation is defined primarily by a 1px border (#E2E8F0 in light, #0a2558 in dark). Shadows only assist during elevation change.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do maintain strict parity across Uzbek, Russian, and English content.",
+      "Do use #D19C30 exclusively for active elements, key statistics, and primary CTAs.",
+      "Do test all color pairings against WCAG AA 4.5:1 minimum contrast.",
+      "Do use rounded-2xl cards with subtle borders for structured content."
+    ],
+    "donts": [
+      "Don't add decorative badge chips or pill tags with arbitrary colored counters.",
+      "Don't use thick vertical accent borders (border-l-4) or side-tab gimmicks on cards.",
+      "Don't use multi-color neon gradients, purple shadows, or AI-generated decorative blobs.",
+      "Don't repeat brand text next to the crest logo when the crest is self-contained."
+    ]
+  }
+}
