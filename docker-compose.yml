@@ -117,5 +117,6 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
       - /etc/letsencrypt:/etc/letsencrypt:ro
       - elmapi_uploads:/var/www/uploads:ro
+      - ./elmapi-public:/var/www/html/public:ro
     networks:
       - app_network

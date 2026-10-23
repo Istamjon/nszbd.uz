@@ -42,6 +42,8 @@ $app = Application::configure(basePath: dirname(__DIR__))
         //
     })->create();
 
-$app->usePublicPath('D:\OSPanel_6_5_1\home\Ptoject3\public');
+if ($publicPath = env('LARAVEL_PUBLIC_PATH')) {
+    $app->usePublicPath($publicPath);
+}
 
 return $app;
