@@ -20,6 +20,15 @@ COPY . .
 ARG NEXT_PUBLIC_SITE_URL=https://nszbd.uz
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 
+# Server-side vars needed at build time for Next.js static analysis
+# These are placeholder values — real values injected at runtime via docker-compose
+ARG ELMAPI_BASE_URL=http://placeholder-build-only/api
+ARG ELMAPI_PROJECT_ID=placeholder
+ARG ELMAPI_API_KEY=placeholder
+ENV ELMAPI_BASE_URL=$ELMAPI_BASE_URL
+ENV ELMAPI_PROJECT_ID=$ELMAPI_PROJECT_ID
+ENV ELMAPI_API_KEY=$ELMAPI_API_KEY
+
 RUN npm run build
 
 # ============================================================
