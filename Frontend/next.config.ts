@@ -55,9 +55,10 @@ function elmapiRemotePatterns(): ImageRemotePattern[] {
 const nextConfig: NextConfig = {
   output: "standalone",
   images: {
-    dangerouslyAllowLocalIP: process.env.NODE_ENV === "development",
+    dangerouslyAllowLocalIP: true,
     remotePatterns: elmapiRemotePatterns(),
   },
+
 };
 
 import createNextIntlPlugin from "next-intl/plugin";
