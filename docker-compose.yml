@@ -89,15 +89,15 @@ services:
       - elmapi
     environment:
       NODE_ENV: production
-      # Internal Docker network URL — no DNS dependency needed
-      ELMAPI_BASE_URL: http://elmapi/api
+      # CMS API endpoint via internal Nginx TLS proxy
+      ELMAPI_BASE_URL: https://admin.nszbd.uz/api
       ELMAPI_PROJECT_ID: ${ELMAPI_PROJECT_ID}
       ELMAPI_API_KEY: ${ELMAPI_API_KEY}
       NEXT_PUBLIC_SITE_URL: https://nszbd.uz
       TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
       TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID}
       AUTH_SECRET: ${AUTH_SECRET}
-      # Disable TLS cert check since internal communication is plain HTTP
+      # Allow internal TLS verification
       NODE_TLS_REJECT_UNAUTHORIZED: "0"
     networks:
       - app_network
@@ -117,6 +117,11 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
       - /etc/letsencrypt:/etc/letsencrypt:ro
       - elmapi_uploads:/var/www/uploads:ro
+      - elmapi_storage:/var/www/html/storage:ro
       - ./elmapi-public:/var/www/html/public:ro
     networks:
-      - app_network
+      app_network:
+        aliases:
+          - admin.nszbd.uz
+          - nszbd.uz
+
