@@ -5,12 +5,12 @@ FROM php:8.4-fpm-alpine AS base
 
 # System dependencies
 RUN apk add --no-cache \
-    bash curl git unzip libpng-dev libjpeg-turbo-dev freetype-dev \
+    bash curl git unzip libpng-dev libjpeg-turbo-dev freetype-dev libwebp-dev libwebp \
     libzip-dev oniguruma-dev icu-dev linux-headers \
     nodejs npm
 
 # PHP extensions
-RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
+RUN docker-php-ext-configure gd --with-freetype --with-jpeg --with-webp \
  && docker-php-ext-install -j$(nproc) \
     pdo_mysql mysqli bcmath gd intl zip opcache pcntl
 
@@ -19,14 +19,21 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
 
-# ── PHP config optimizations ──────────────────
+# ── PHP config optimizations & Upload limits ──
 RUN { \
     echo "opcache.enable=1"; \
     echo "opcache.memory_consumption=256"; \
     echo "opcache.max_accelerated_files=20000"; \
     echo "opcache.validate_timestamps=0"; \
     echo "opcache.revalidate_freq=0"; \
-} > /usr/local/etc/php/conf.d/opcache.ini
+} > /usr/local/etc/php/conf.d/opcache.ini \
+ && { \
+    echo "upload_max_filesize=64M"; \
+    echo "post_max_size=64M"; \
+    echo "memory_limit=256M"; \
+    echo "max_execution_time=300"; \
+    echo "max_input_time=300"; \
+} > /usr/local/etc/php/conf.d/uploads.ini
 
 # ── Dependencies ──────────────────────────────
 FROM base AS vendor
