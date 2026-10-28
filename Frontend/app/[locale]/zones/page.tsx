@@ -31,8 +31,9 @@ const districtMatchers: Record<string, string[]> = {
 };
 
 const typeMatchers: Record<string, string[]> = {
+  small: ["kichik", "малая", "small"],
   youth: ["yoshlar", "молодёж", "youth"],
-  business: ["tadbirkor", "предприн", "business", "kichik", "малая", "small", "maxsus", "специаль"],
+  business: ["kichik", "малая", "small", "tadbirkor"],
 };
 
 export default async function ZonesPage({ params, searchParams }: PageProps) {
@@ -62,8 +63,8 @@ export default async function ZonesPage({ params, searchParams }: PageProps) {
 
   const zoneTypeOptions = [
     { label: dict.zonesPage.allTypes, value: "" },
+    { label: dict.zonesPage.types.small, value: "small" },
     { label: dict.zonesPage.types.youth, value: "youth" },
-    { label: dict.zonesPage.types.business, value: "business" },
   ];
 
   const filteredZones = allZones.filter((z) => {

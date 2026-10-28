@@ -1,0 +1,286 @@
+nszbd.uz
+
+Frontend 
+Next.js  Tailwind  shadcn/ui clean corporate design
+
+smooth ux/ui
+Smooth ui interactions   
+Smooth UI designs  
+smooth effects
+smooth animations 
+smooth hover
+Smooth Transitions
+
+Typography
+typography scale
+font family inter 
+
+Light/Dark  Design System
+primary #D19C30
+#010c22
+#EEEEEE  
+
+UI/UX & Smooth Transitions:
+- Style: Clean Corporate, minimalist, highly professional, WCAG accessible.
+- Smooth Transitions & Animations: Fast micro-interactions (duration-200/300), 
+  smooth hover states, fading submenus, sliding mobile drawer, seamless 
+  Light/Dark theme switching, and fluid page transitions.
+- Loading States: Skeleton shimmer animation (custom gradient pulse for light/dark modes).
+- Navigation: Desktop MenuItem & Submenu with hover dropdowns. Mobile responsive drawer.
+- Language Switcher: Multilingual support (UZ, RU, EN via Next.js i18n). 
+  Dropdown menu must display inline flag SVGs ONLY (no text labels for language names inside the toggle button).
+
+
+Skeleton  shimmer 
+multilingual UZ RU EN (Next.js i18n)
+dropdown menu flag.svg  (til nomlari matnlar kerak emas )
+lucide icons library
+Responsive design
+Breakpoint prefix 
+'xs': '375px',   // Kichik smartfonlar 
+'sm': '640px',   // Katta smartfonlar / gorizontal rejim
+'md': '768px',   // Planshetlar (iPad)
+'lg': '1024px',  // Standart noutbuklar (MenuItem & Submenu shu yerda chiqadi)
+'xl': '1280px',  // Desktop monitorlar (Asosiy 1280px container)
+'2xl': '1440px', // Keng formatli monitorlar
+
+
+Agent loyiham tegishli barcha fallari vazflari
+
+Agent/index.md
+Agent/Aloqa.md
+Agent/Huquqiy hujjatlar.md
+Agent/Loyihalar.md
+Agent/RAHBARIYAT.md
+Agent/Sanoat zonalari.md
+Agent/Tashkiliy tuzilma.md
+Agent/Tashkilot haqida.md
+Agent/TASHKILOTNING ASOSIY VAZIFALARI VA FUNKSIYALARI.md
+Agent/Yangiliklar.md
+
+
+ 
+
+Task: Build a responsive, accessible, and high-performance  page/web application UI for a government/corporate platform  
+
+Tech Stack & Architecture:
+- Framework: Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui.
+- Icons: Lucide icons library only.
+- Container: max-w-7xl mx-auto (1280px) with responsive padding (px-4 sm:px-6 lg:px-8).
+
+Typography Rules:
+- Font Family: Inter (sans-serif), optimized antialiasing (-webkit-font-smoothing: antialiased).
+- Font Weights: Regular (400), Medium (500), Semibold (600), Bold (700), Extrabold (800).
+ 
+- Letter Spacing: tracking-tight for headings (H1-H3), tracking-normal for body text.
+
+Design System & Color Tokens (Light/Dark mode support):
+- Primary (Brand Gold): #D19C30
+- Deep Navy (Background/Surface Dark): #010c22
+- Canvas Light: #EEEEEE
+- Borders & Dividers: Clean corporate 
+
+UI/UX & Smooth Transitions:
+- Style: Clean Corporate, minimalist, highly professional, WCAG accessible.
+- Smooth Transitions & Animations: Fast micro-interactions (duration-200/300), 
+  smooth hover states, fading submenus, sliding mobile drawer, seamless 
+  Light/Dark theme switching, and fluid page transitions.
+- Loading States: Skeleton shimmer animation (custom gradient pulse for light/dark modes).
+- Navigation: Desktop MenuItem & Submenu with hover dropdowns. Mobile responsive drawer.
+- Language Switcher: Multilingual support (UZ, RU, EN via Next.js i18n). 
+  Dropdown menu must display inline flag SVGs ONLY (no text labels for language names inside the toggle button).
+
+Responsive Breakpoints: Maksimal Kenglik (Container)
+- 'xs': '375px'
+- 'sm': '640px'
+- 'md': '768px'
+- 'lg': '1024px' (Desktop menu and submenus activate here)
+- 'xl': '1280px' (Main container max-w-7xl)
+- '2xl': '1440px'
+
+
+Output Requirements:
+- Write modular, clean, type-safe Next.js components.
+- Ensure strict mobile-first implementation and pixel-perfect responsiveness.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topbar: 
+chap tamon: icon+Phone, icon+adres, icon+mail 
+o`ng tomon:  switch+Light/Dark , social media icon+link (facebook,instagram,telegram,youtube)
+
+Header: 
+left: logo.svg logo  center:Nav menu, button( Ariza ) "Modul forma Ism familiya  Telefon raqami Email Izoh( ariza mazmuni)  right: switch language   ,
+
+Nav menu sturukturasi 
+menuitem: Bosh sahifa
+
+menuitem: Direksiya haqida #
+submenu:
+-Tashkilot haqida
+-Rahbariyat
+-Vazifalar va funksiyalar 
+-Tashkiliy tuzilma
+-Huquqiy hujjatlar 
+
+menuitem: Sanoat zonalari #
+submenu:
+ hududlar buyiha ruyxat
+
+menuitem:Yangiliklar 
+menuitem:Loyihalar 
+menuitem:Aloqa 
+
+
+
+secton Hero 
+backraund image hero.png
+
+
+secton KPI Bar
+
+secton Sanoat Zonalari Karuseli
+Karusel Imkoniyatlari:
+Swipe va Arrow Navigation: Sichqoncha yoki mobil ekranda chapga-o'ngga surish (touch swipe), shuningdek yon tomonlardagi o'q (prev/next) tugmalari orqali boshqariladi.
+Avtomatik aylanish (Autoplay - ixtiyoriy): Sokin harakatlanish (masalan, har 4-5 soniyada keyingi zona kartochkasiga o'tish).
+Loop (Cheksiz aylanish): Oxirgi zonaga yetganda yana boshidan boshlanishi.
+Karusel Ichidagi Har Bir Sanoat Zonasi Kartochkasi (Card Content):
+Zona rasmi, Nomi, Tavsif (Description),  hududdan biri (masalan, Karmana tumani).
+Harakat tugmasi: "Batafsil"
+
+secton Korxona qisqacha malumot  
+left: headline , decription , button 
+right:  image
+
+
+secton News Karuseli 
+
+
+section  Bog'lanish
+
+section  Maps  (40°06'01.4"N 65°21'49.3"E Навои, Узбекистан https://maps.app.goo.gl/ozNtt7G9S2EGGy1J6)
+
+karta full with 
+
+
+
+Footer 
+
+
+
+
+
+
+RAHBARIYAT  page uchun 
+Matlabov Yusup Sultanovich
+Direktor
+Qabul kunlari: dushanba- juma soat 09:00 dan 18:00 gacha
+yusufmatlobov@gmail.com
++998 99 021 07 73
+
+Ibragimov Sardor Uraltoshevich
+Direktor o'rinbosari
+Qabul kunlari: dushanba- juma soat 09:00 dan 18:00 gacha
+ibragimovsardor0030@gmail.com
++998 93 460 00 30
+
+Collection: Rahbariyat
+Rasmlari: Upload (Media fayllar yuklash — Rahbarning fotosurati)
+Ism: Input (Matnli maydon — F.I.Sh.)
+Lavozim: Input (Matnli maydon — Egallagan lavozimi)
+Telefon: Input (Matnli maydon — Aloqa raqami)
+Email: Input (Matnli maydon — Elektron pochta manzili)
+
+
+
+
+
+
+
+
+Aloqa page:
+chap tomon forma 
+o`ng tomonda 
+manzil: Navoiy shahri, A.Timur koʻchasi, 4-uy
+Ish vaqti: Dushanba – Juma, 09:00 dan 18:00 gacha
+Elektron pochta: ksznavoiy@umail.uz
+Phone:79-223-28-77 
+maps https://maps.app.goo.gl/NBr6eprEQfffPyg89 40.100377, 65.363682 
+
+
+
+
+
+Collections 3 ta tilda uz, ru ,en buladi 
+
+Collection: Sanoat Zonalari
+Nomi: Input (Matnli maydon)
+Tavsif (Description): Textarea / Rich Text (To'liq matn yoki tavsif)
+Tuman/Shahar: Select / List (Tanlanadigan ro'yxat
+ Karmana tumani 
+ Konimex tumani
+ Qiziltepa tumani 
+ Navbahor tumani
+ Nurota tumani
+ Tomdi tumani 
+ Uchquduq tumani 
+ Xatirchi tumani 
+ Navoiy shahri
+ Zarafshon shahri 
+ G`ozg`on shahri
+
+)
+Zona turi: Select (Tanlanadigan ro'yxat
+ Kichik sanoat zonasi
+ Yoshlar sanoat va tadbirkorlik zonasi )
+
+Bo'sh maydon: Number (Raqamli kiritish, masalan: 15.3)
+Maydoni umumiy: Number (Raqamli kiritish, gektar hisobida)
+Rasmlari: Upload (Media fayllar yuklash)
+Qaror asosi: Upload (PDF formatidagi media fayl)
+Infratuzilma: Checkbox (Bir nechta tanlash imkoniyati: Tabiiy gaz, Ichimlik suvi, Elektr energiyasi, Asfalt qoplamali yo‘l)
+ 
+Collection: News (Yangiliklar)
+Sarlavha (Headline): Input (Matnli maydon)
+Rasmlari: Upload (Media fayllar yuklash)
+Tavsif (Description): Textarea / Rich Text (To'liq matn yoki tavsif)
+Sana (Data): Date (E'lon qilingan sana)
+
+Collection: E'lonlar
+Sarlavha (Headline): Input (Matnli maydon)
+Tavsif (Description): Textarea / Rich Text (To'liq matn yoki tavsif)
+Sana (Data): Date (E'lon qilingan sana)
+
+Collection: Rahbariyat
+Rasmlari: Upload (Media fayllar yuklash — Rahbarning fotosurati)
+Ism: Input (Matnli maydon — F.I.Sh.)
+Lavozim: Input (Matnli maydon — Egallagan lavozimi)
+Telefon: Input (Matnli maydon — Aloqa raqami)
+Email: Input (Matnli maydon — Elektron pochta manzili)
+
+
+
+
+
+
+
+

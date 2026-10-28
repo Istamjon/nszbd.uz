@@ -260,8 +260,8 @@
     "selectType": "Zona turini tanlang",
     "allTypes": "Barcha turlar",
     "types": {
-      "youth": "Yoshlar sanoat",
-      "business": "Tadbirkorlik zonasi"
+      "small": "Kichik sanoat zonasi",
+      "youth": "Yoshlar sanoat va tadbirkorlik zonasi"
     },
     "noZonesFound": "Tanlangan filtrlar bo‘yicha sanoat zonalari topilmadi.",
     "resetFilters": "Filtrlarni tozalash",

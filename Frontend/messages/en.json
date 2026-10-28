@@ -260,8 +260,8 @@
     "selectType": "Select zone type",
     "allTypes": "All types",
     "types": {
-      "youth": "Youth industrial",
-      "business": "Business zone"
+      "small": "Small industrial zone",
+      "youth": "Youth industrial and entrepreneurship zone"
     },
     "noZonesFound": "No industrial zones found matching the selected filters.",
     "resetFilters": "Reset filters",
